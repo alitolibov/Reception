@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+.h1{
+  width: 301px;
+  height: 56px;
+  margin: 72 auto 10px;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 56px;
+  user-select: none;
+}
+.text-block{
+  width: 301px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.top{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  user-select: none;
+  transition: 500ms;
+}
+.container-block{
+  display: flex;
+  margin: 44px auto 110px;
+  width: 609px;
+}
+.container{
+  height: 685px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.input-block{
+  height: 101px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 55px;
+}
+.block1{
+  height: 82px;
+}
+.name{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #4200FF;
+  transition: 500ms;
+}
+.names{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.item{
+  padding: 20px 12px;
+  width: 277px;
+  height: 59px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  outline: none;
+  transition: 500ms;
+}
+.input{
+  border: 1px solid #949494;
+}
+.input-blue{
+  border: 2px solid #543FD3;
+}
+.required{
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  color: #595959;
+}
+.btn{
+  width: 277px;
+  height: 59px;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #4200FF;
+  border: 2px solid #4200FF;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  transition: 500ms;
+}
+.img-input{
+  display: flex;
+}
+.img-no{
+  margin-left: 8px;
+  display: none;
+  transition: 500ms;
+}
+.btnActive{
+  background-color: #EE0004;
+}
+.blue{
+  border: 2px solid #EE0004;
+}
+.invalid{
+  border: 2px solid #EE0004;
+}
+.valid{
+  border: 1px solid #949494;
+}
+.valid2{
+  border: 2px solid #543FD3;
+}
+.nameActive{
+  color: #EE0004;
+}
+.required2{
+    color: #EE0004;
+    font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+  display: none;
+}
